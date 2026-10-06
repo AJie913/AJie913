@@ -6,9 +6,9 @@
 
 ## 代表作品
 
-### [CVE-to-MITRE ATT&CK Technique Mapping with SecureBERT](https://github.com/AJie913/cve-to-attack-securebert)
+### [CVE-to-MITRE ATT&CK Techniques Mapping with SecureBERT](https://github.com/AJie913/cve-to-attack-securebert)
 
-將 CVE 描述對應至 31 個 MITRE ATT&CK technique 標籤，並在一致的評估流程下比較 SciBERT、SecBERT 與 SecureBERT。
+將 CVE 描述對應至 31 個 MITRE ATT&CK techniques 標籤，並在一致的評估流程下比較 SciBERT、SecBERT 與 SecureBERT。
 
 - **資料處理：** 檢查重複的 CVE ID，移除 train / validation / test split 之間的重疊。
 - **模型實驗：** 比較 loss function、classifier head、訓練策略與 threshold。
