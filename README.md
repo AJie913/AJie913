@@ -1,37 +1,37 @@
-# Kai-Chieh Chang｜張凱傑
+# 張凱傑
 
-Computer science background with research experience in Transformer-based NLP and multi-label classification. Seeking entry-level software and system engineering opportunities in **AI servers, automation and cloud infrastructure**.
+國立中正大學資訊工程研究所畢業，使用 Python、PyTorch 與 Hugging Face Transformers 進行 NLP 多標籤分類研究。
 
-具備資訊工程研究背景，使用 Python、PyTorch 與 Hugging Face Transformers 進行 NLP 多標籤分類研究，求職方向為 AI Server 軟體、自動化、系統整合與 Cloud Infrastructure。
+希望應徵 **AI Server 軟體、Python 自動化、系統整合與 AI／Cloud Infrastructure** 相關的初階職位。
 
-## Featured project
+## 代表作品
 
-### [CVE-to-ATT&CK mapping with SecureBERT](https://github.com/AJie913/cve-to-attack-securebert)
+### [使用 SecureBERT 將 CVE 對應至 MITRE ATT&CK 技術](https://github.com/AJie913/cve-to-attack-securebert)
 
-Mapped CVE descriptions to 31 MITRE ATT&CK technique labels, comparing SciBERT, SecBERT and SecureBERT under a consistent evaluation protocol.
+將 CVE 描述對應至 31 個 MITRE ATT&CK 技術標籤，並在一致的評估流程下比較 SciBERT、SecBERT 與 SecureBERT。
 
-- **Data preparation:** checked duplicate CVE IDs and removed overlap across train, validation and test sets.
-- **Model experimentation:** compared loss functions, classifier heads, training strategies and decision thresholds.
-- **Evaluation:** SecureBERT test Weighted F1 improved from **39.43% to 49.22%** along the evaluated experiment path (**+9.79 percentage points**, seed 42).
-- **Evidence:** notebooks with saved outputs, experiment settings, figures and documented limitations.
+- **資料處理：**檢查重複的 CVE ID，移除訓練集、驗證集與測試集之間的重疊。
+- **模型實驗：**比較損失函數、分類器結構、訓練策略與判定閾值。
+- **評估成果：**在所比較的實驗流程中，SecureBERT 的測試集 Weighted F1 從 **39.43% 提升至 49.22%**，增加 **9.79 個百分點**。結果來自固定隨機種子 42 的實驗。
+- **成果紀錄：**提供包含執行結果的 Jupyter Notebook、實驗設定、圖表與研究限制說明。
 
-[Project overview and results](https://github.com/AJie913/cve-to-attack-securebert#主要結果) · [Training notebook](https://github.com/AJie913/cve-to-attack-securebert/blob/main/cve2tech/securebert/standard/ablation/exp03_training_strategy_multi_label_securebert.ipynb)
+[專案介紹與結果](https://github.com/AJie913/cve-to-attack-securebert#主要結果) · [訓練實驗 Jupyter Notebook](https://github.com/AJie913/cve-to-attack-securebert/blob/main/cve2tech/securebert/standard/ablation/exp03_training_strategy_multi_label_securebert.ipynb)
 
-## Skills demonstrated in this project
+## 作品呈現的能力
 
-| Area | Evidence |
+| 領域 | 實作內容 |
 |---|---|
-| Python & PyTorch | Dataset handling, model definition, training and evaluation |
-| Transformer NLP | Fine-tuning and comparing three pretrained encoders |
-| Experiment design | Controlled, incremental comparisons and threshold analysis |
-| Evaluation discipline | CVE ID overlap checks, multi-label metrics and explicit result limitations |
+| Python／PyTorch | 資料處理、模型定義、訓練與評估 |
+| Transformer／NLP | 微調並比較三種預訓練編碼器 |
+| 實驗設計 | 控制變因、逐步比較與判定閾值分析 |
+| 評估與驗證 | 檢查 CVE ID 重疊、分析多標籤分類指標，並說明結果限制 |
 
-## Career interests
+## 求職方向
 
-Seeking entry-level opportunities in **Server Software, Python Automation and AI / Cloud Infrastructure**. My current portfolio demonstrates Python, PyTorch, data processing and reproducible model experimentation through the research project above.
+希望將目前的 Python、資料處理與模型實驗經驗，延伸至 **AI Server 軟體、Python 自動化、系統整合與 AI／Cloud Infrastructure** 相關工作。
 
-希望應徵 Server 軟體、Python 自動化，以及 AI／Cloud Infrastructure 相關的初階職位。目前作品以 Python、PyTorch、資料處理與模型實驗評估為主。
+目前公開作品主要呈現研究與模型實驗能力，可透過專案中的程式、實驗結果與說明查看實作內容。
 
-## Explore
+## 相關連結
 
-[Featured research repository](https://github.com/AJie913/cve-to-attack-securebert) · [GitHub profile](https://github.com/AJie913)
+[研究專案](https://github.com/AJie913/cve-to-attack-securebert) · [GitHub 個人首頁](https://github.com/AJie913)
