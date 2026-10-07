@@ -1,37 +1,41 @@
-# 張凱傑
+# 張凱傑 | Chang Kai Chieh
 
-國立中正大學資訊工程研究所畢業，使用 Python、PyTorch 與 Hugging Face Transformers 進行 NLP multi-label classification 研究。
+國立中正大學資訊工程碩士，研究中使用 Python、pandas、PyTorch 與 Hugging Face Transformers 進行 NLP 與 multi-label classification，工作涵蓋資料清理、模型 fine-tuning 與實驗分析，希望將這些經驗延伸至初階 Python 軟體開發、自動化、Server Software 與系統整合工作。
 
-希望應徵 **Server Software、Python Automation、系統整合與 AI／Cloud Infrastructure** 相關的初階職位。
+M.S. in Computer Science and Information Engineering, National Chung Cheng University, with research experience in Python, NLP, and multi-label classification, seeking entry-level opportunities in Python software development, automation, server software, or systems integration.
 
-## 代表作品
+## 研究作品
 
-### [CVE-to-MITRE ATT&CK Techniques Mapping with SecureBERT](https://github.com/AJie913/cve-to-attack-securebert)
+### [CVE-to-MITRE ATT&CK Mapping with SecureBERT](https://github.com/AJie913/cve-to-attack-securebert)
 
-將 CVE 描述對應至 31 個 MITRE ATT&CK techniques 標籤，並在一致的評估流程下比較 SciBERT、SecBERT 與 SecureBERT。
+碩士論文研究將 CVE 描述映射至 MITRE ATT&CK techniques，以 PyTorch 與 Hugging Face Transformers 比較 SciBERT、SecBERT 與 SecureBERT，並分析 Focal Loss、MLP classifier head、訓練策略及 threshold 設定。
 
-- **資料處理：** 檢查重複的 CVE ID，移除 train / validation / test split 之間的重疊。
-- **模型實驗：** 比較 loss function、classifier head、訓練策略與 threshold。
-- **評估成果：** 在所比較的實驗流程中，SecureBERT 的 test split Weighted F1 從 **39.43% 提升至 49.22%**，增加 **9.79 個百分點**。結果來自固定 random seed 42 的實驗。
-- **成果紀錄：** 提供包含執行結果的 Jupyter Notebook、實驗設定、圖表與研究限制說明。
+- **資料處理：** 使用 Python 與 pandas 依 CVE-ID 去重、排除跨集合重疊，整理 1,089 筆 training、255 筆 validation 與 317 筆 test 資料。
+- **模型比較：** 在相同資料切分下比較三種 encoder，分析固定 threshold 0.5 與 adaptive thresholds 對 weighted precision、weighted recall 與 weighted F1 的影響。
+- **實驗紀錄：** 公開專案提供核心 notebooks、保留輸出、實驗設定與圖表，供讀者查看研究流程。
+- **評估限制：** 研究過程曾反覆參考同一 test set 調整設定，報告分數因此不作為獨立測試的泛化證據，CVE-ID 無交集也不等於已排除所有資料洩漏。
 
-[專案介紹與結果](https://github.com/AJie913/cve-to-attack-securebert#主要結果) · [訓練實驗 Jupyter Notebook](https://github.com/AJie913/cve-to-attack-securebert/blob/main/cve2tech/securebert/standard/ablation/exp03_training_strategy_multi_label_securebert.ipynb)
+The same test set was repeatedly consulted while tuning settings during the research, so reported scores do not constitute independent evidence of generalization, and disjoint CVE-IDs alone do not rule out all forms of leakage.
 
-## 作品呈現的能力
+[專案介紹](https://github.com/AJie913/cve-to-attack-securebert) · [SecureBERT 實驗 Notebook](https://github.com/AJie913/cve-to-attack-securebert/blob/main/cve2tech/securebert/standard/ablation/exp03_training_strategy_multi_label_securebert.ipynb)
 
-| 領域 | 實作內容 |
-|---|---|
-| Python／PyTorch | 資料處理、模型定義、訓練與評估 |
-| Transformer／NLP | 對三種 pretrained encoder 進行 fine-tuning 與比較 |
-| 實驗設計 | 控制變因、逐步比較與 threshold 分析 |
-| 評估與驗證 | 檢查 CVE ID 重疊、分析 multi-label classification 指標，並說明結果限制 |
+## 其他專案經驗
 
-## 求職方向
+**主動式資安防禦 | 國防科技研究計畫**
 
-希望將目前的 Python、資料處理與模型實驗經驗，延伸至 **Server Software、Python Automation、系統整合與 AI／Cloud Infrastructure** 相關工作。
+規劃系統規格與設計兩份文件的架構及章節，彙整開發成員提供的技術內容與修訂，整理文字、格式並完成定稿，文件已正式交付。
 
-目前公開作品主要呈現研究與模型實驗能力，可透過專案中的程式、實驗結果與說明查看實作內容。
+**SolarPower 車載能源管理平台 | 行動通訊實務競賽**
 
-## 相關連結
+參與實體接線與組裝，並與團隊討論修改依電壓與設備功耗切換供電來源的控制程式，團隊作品整合 Raspberry Pi、ESP8266、電流感測器及繼電器，晉級 2024 行動通訊實務競賽智慧節能與物聯網應用組決賽。
 
-[研究專案](https://github.com/AJie913/cve-to-attack-securebert) · [GitHub 個人首頁](https://github.com/AJie913)
+## 研究中使用的工具與方法
+
+- **程式與資料處理：** Python、pandas、CVE-ID 去重與跨集合重疊檢查
+- **研究使用工具：** PyTorch、Hugging Face Transformers
+- **模型與評估：** Multi-label classification、Transformer fine-tuning、Focal Loss、MLP classifier head、threshold 分析、weighted metrics
+- **求職方向：** 初階 Python Software、Python Automation、Server Software、系統整合與 AI/Cloud Infrastructure
+
+研究初期曾使用 LangChain 探索 LLM 與 RAG，後續以 supervised Transformer 模型完成主要研究，AI/Cloud Infrastructure 是希望發展的方向，目前公開作品主要呈現研究與模型實驗經驗。
+
+[GitHub 個人首頁](https://github.com/AJie913)
