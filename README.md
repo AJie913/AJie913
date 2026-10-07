@@ -34,6 +34,7 @@ Parameter tuning, architecture changes, and checkpoint selection were based on v
 - **程式與資料處理：** Python、pandas、CVE-ID 去重與跨集合重疊檢查
 - **研究使用工具：** PyTorch、Hugging Face Transformers
 - **模型與評估：** Multi-label classification、Transformer fine-tuning、Focal Loss、MLP classifier head、threshold 分析、weighted metrics
+
 研究初期曾使用 LangChain 探索 LLM 與 RAG，後續以 supervised Transformer 模型完成主要研究。
 
 ## 求職方向
