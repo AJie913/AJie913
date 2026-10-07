@@ -1,8 +1,8 @@
 # 張凱傑 | Chang Kai Chieh
 
-國立中正大學資訊工程碩士，研究中使用 Python、pandas、PyTorch 與 Hugging Face Transformers 進行 NLP 與 multi-label classification，工作涵蓋資料清理、模型 fine-tuning 與實驗分析，希望將這些經驗延伸至初階 Python 軟體開發、自動化、Server Software 與系統整合工作。
+國立中正大學資訊工程碩士，研究使用 Python、pandas、PyTorch 與 Hugging Face Transformers 進行資料整理、模型 fine-tuning 及實驗分析，另有技術文件整合與團隊硬體專題經驗，希望投入 AI Server/Cloud Infrastructure 初階軟體與系統職務，參與自動化、驗證、整合及效能分析。
 
-M.S. in Computer Science and Information Engineering, National Chung Cheng University, with research experience in Python, NLP, and multi-label classification, seeking entry-level opportunities in Python software development, automation, server software, or systems integration.
+Computer science master's graduate from National Chung Cheng University with Python data processing, NLP model experimentation, and technical documentation experience, seeking entry-level software or systems roles in AI server/cloud infrastructure involving automation, validation, integration, and performance analysis.
 
 ## 研究作品
 
@@ -34,8 +34,10 @@ Parameter tuning, architecture changes, and checkpoint selection were based on v
 - **程式與資料處理：** Python、pandas、CVE-ID 去重與跨集合重疊檢查
 - **研究使用工具：** PyTorch、Hugging Face Transformers
 - **模型與評估：** Multi-label classification、Transformer fine-tuning、Focal Loss、MLP classifier head、threshold 分析、weighted metrics
-- **求職方向：** 初階 Python Software、Python Automation、Server Software、系統整合與 AI/Cloud Infrastructure
+研究初期曾使用 LangChain 探索 LLM 與 RAG，後續以 supervised Transformer 模型完成主要研究。
 
-研究初期曾使用 LangChain 探索 LLM 與 RAG，後續以 supervised Transformer 模型完成主要研究，AI/Cloud Infrastructure 是希望發展的方向，目前公開作品主要呈現研究與模型實驗經驗。
+## 求職方向
+
+目前希望投入 AI Server/Cloud Infrastructure 初階軟體與系統職務，涵蓋 Python 開發、自動化、驗證、整合及效能分析，公開作品主要呈現資料處理、模型實驗與研究紀錄整理經驗。
 
 [GitHub 個人首頁](https://github.com/AJie913)
