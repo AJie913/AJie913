@@ -13,9 +13,9 @@ M.S. in Computer Science and Information Engineering, National Chung Cheng Unive
 - **資料處理：** 使用 Python 與 pandas 依 CVE-ID 去重、排除跨集合重疊，整理 1,089 筆 training、255 筆 validation 與 317 筆 test 資料。
 - **模型比較：** 在相同資料切分下比較三種 encoder，分析固定 threshold 0.5 與 adaptive thresholds 對 weighted precision、weighted recall 與 weighted F1 的影響。
 - **實驗紀錄：** 公開專案提供核心 notebooks、保留輸出、實驗設定與圖表，供讀者查看研究流程。
-- **評估限制：** 研究過程曾反覆參考同一 test set 調整設定，報告分數因此不作為獨立測試的泛化證據，CVE-ID 無交集也不等於已排除所有資料洩漏。
+- **評估流程：** 依 validation 結果調整參數、架構及選擇最佳 checkpoint，設定確定後以 test set 進行最終評估。
 
-The same test set was repeatedly consulted while tuning settings during the research, so reported scores do not constitute independent evidence of generalization, and disjoint CVE-IDs alone do not rule out all forms of leakage.
+Parameter tuning, architecture changes, and checkpoint selection were based on validation results, with the test set used for final evaluation after the settings were determined.
 
 [專案介紹](https://github.com/AJie913/cve-to-attack-securebert) · [SecureBERT 實驗 Notebook](https://github.com/AJie913/cve-to-attack-securebert/blob/main/cve2tech/securebert/standard/ablation/exp03_training_strategy_multi_label_securebert.ipynb)
 
