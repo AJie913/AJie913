@@ -1,8 +1,8 @@
 # 張凱傑 | Chang Kai Chieh
 
-國立中正大學資訊工程碩士，研究使用 Python、pandas、PyTorch 與 Hugging Face Transformers 進行資料整理、模型 fine-tuning 及實驗分析，另有技術文件整合與團隊硬體專題經驗，希望投入 AI Server/Cloud Infrastructure 初階軟體與系統職務，參與自動化、驗證、整合及效能分析。
+國立中正大學資訊工程碩士，研究使用 Python、pandas、PyTorch 與 Hugging Face Transformers 進行資料整理、模型 fine-tuning 及實驗分析，另有技術文件整合與團隊硬體專題經驗，希望投入 AI 平台或運算基礎設施相關的初階開發職務，參與軟體工具開發、流程自動化、服務整合與效能驗證。
 
-Computer science master's graduate from National Chung Cheng University with Python data processing, NLP model experimentation, and technical documentation experience, seeking entry-level software or systems roles in AI server/cloud infrastructure involving automation, validation, integration, and performance analysis.
+Computer science master's graduate from National Chung Cheng University with experience in Python data processing, NLP model experimentation, and consolidating technical documentation, seeking entry-level development roles in AI platforms or computing infrastructure involving software tool development, workflow automation, service integration, and performance validation.
 
 ## 研究作品
 
@@ -39,6 +39,8 @@ Parameter tuning, architecture changes, and checkpoint selection were based on v
 
 ## 求職方向
 
-目前希望投入 AI Server/Cloud Infrastructure 初階軟體與系統職務，涵蓋 Python 開發、自動化、驗證、整合及效能分析，公開作品主要呈現資料處理、模型實驗與研究紀錄整理經驗。
+希望投入 AI 平台或運算基礎設施相關的初階軟體開發，參與 Python 工具、流程自動化、AI 服務整合及效能驗證等工程工作，並在團隊帶領下累積開發、問題分析與系統改善經驗，也願意考慮具有相近工程內容的相關職務。
+
+公開作品主要呈現資料處理、模型實驗與研究紀錄整理經驗。
 
 [GitHub 個人首頁](https://github.com/AJie913)
