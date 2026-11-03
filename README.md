@@ -1,46 +1,32 @@
 # 張凱傑 | Chang Kai Chieh
 
-國立中正大學資訊工程碩士，研究使用 Python、pandas、PyTorch 與 Hugging Face Transformers 進行資料整理、模型 fine-tuning 及實驗分析，另有技術文件整合與團隊硬體專題經驗，希望投入 AI 平台或運算基礎設施相關的初階開發職務，參與軟體工具開發、流程自動化、服務整合與效能驗證。
+國立中正大學資訊工程碩士，曾用 Python 整理研究資料，並進行 NLP 模型微調與評估。目前尋找 AI 應用與基礎設施相關的初階軟體開發職務，希望參與 AI 服務整合、模型部署、推論服務與效能驗證。
 
-Computer science master's graduate from National Chung Cheng University with experience in Python data processing, NLP model experimentation, and consolidating technical documentation, seeking entry-level development roles in AI platforms or computing infrastructure involving software tool development, workflow automation, service integration, and performance validation.
+I hold a master’s degree in Computer Science and Information Engineering from National Chung Cheng University, where I used Python to prepare research data and fine-tune and evaluate NLP models. I’m seeking entry-level software development roles in AI applications and infrastructure, with interests in AI service integration, model deployment, inference services, and performance validation.
 
-## 研究作品
+## 研究作品 | Research
 
-### [CVE-to-MITRE ATT&CK Mapping with SecureBERT](https://github.com/AJie913/cve-to-attack-securebert)
+**[CVE-to-MITRE ATT&CK Mapping with SecureBERT](https://github.com/AJie913/cve-to-attack-securebert)**
 
-碩士論文研究將 CVE 描述映射至 MITRE ATT&CK techniques，以 PyTorch 與 Hugging Face Transformers 比較 SciBERT、SecBERT 與 SecureBERT，並分析 Focal Loss、MLP classifier head、訓練策略及 threshold 設定。
+我的碩士論文研究如何將 CVE 弱點描述映射至 MITRE ATT&CK techniques。我以 Python 與 pandas 整理資料，使用 PyTorch 與 Hugging Face Transformers 比較三種模型，依 validation 選擇 checkpoint，再以 test set 進行最終評估。
 
-- **資料處理：** 使用 Python 與 pandas 依 CVE-ID 去重、排除跨集合重疊，整理 1,089 筆 training、255 筆 validation 與 317 筆 test 資料。
-- **模型比較：** 在相同資料切分下比較三種 encoder，分析固定 threshold 0.5 與 adaptive thresholds 對 weighted precision、weighted recall 與 weighted F1 的影響。
-- **實驗紀錄：** 公開專案提供核心 notebooks、保留輸出、實驗設定與圖表，供讀者查看研究流程。
-- **評估流程：** 依 validation 結果調整參數、架構及選擇最佳 checkpoint，設定確定後以 test set 進行最終評估。
+My master’s thesis studies how to map CVE descriptions to MITRE ATT&CK techniques. I prepared the data with Python and pandas, compared three models using PyTorch and Hugging Face Transformers, selected checkpoints on the validation set, and evaluated on the test set.
 
-Parameter tuning, architecture changes, and checkpoint selection were based on validation results, with the test set used for final evaluation after the settings were determined.
+[專案與實驗結果 / Project and results](https://github.com/AJie913/cve-to-attack-securebert) · [SecureBERT notebook](https://github.com/AJie913/cve-to-attack-securebert/blob/main/cve2tech/securebert/standard/ablation/exp03_training_strategy_multi_label_securebert.ipynb)
 
-[專案介紹](https://github.com/AJie913/cve-to-attack-securebert) · [SecureBERT 實驗 Notebook](https://github.com/AJie913/cve-to-attack-securebert/blob/main/cve2tech/securebert/standard/ablation/exp03_training_strategy_multi_label_securebert.ipynb)
+**早期 LLM / RAG 探索 | Early LLM / RAG research**
 
-## 其他專案經驗
+研究初期，我也探索以 LLM 與 RAG 進行同一項映射任務，研究原型包含 LangChain、Chroma 向量檢索與 cross-encoder 重排序元件。
 
-**主動式資安防禦 | 國防科技研究計畫**
+Earlier in the research, I explored LLMs and RAG for the same mapping task. The prototype included LangChain, Chroma vector retrieval, and cross-encoder reranking.
 
-規劃系統規格與設計兩份文件的架構及章節，彙整開發成員提供的技術內容與修訂，整理文字、格式並完成定稿，文件已正式交付。
+## 其他專案 | Other projects
 
-**SolarPower 車載能源管理平台 | 行動通訊實務競賽**
+- **主動式資安防禦 / Active Cyber Defense**：規劃系統規格與系統設計文件的架構，整合開發成員提供的內容及修訂，完成兩份正式交付的文件。 I structured the system specification and system design documents and consolidated developers’ contributions and revisions into two formally delivered documents.
+- **SolarPower 車載能源管理平台 / SolarPower In-Vehicle Energy Management Platform**：參與接線與組裝，並與團隊討論修改供電切換程式，團隊作品晉級 2024 行動通訊實務競賽分組決賽。 I contributed to wiring and assembly and discussed changes to the power-switching code with the team. Our project reached its category finals in the 2024 Mobile Communications Practice Competition.
 
-參與實體接線與組裝，並與團隊討論修改依電壓與設備功耗切換供電來源的控制程式，團隊作品整合 Raspberry Pi、ESP8266、電流感測器及繼電器，晉級 2024 行動通訊實務競賽智慧節能與物聯網應用組決賽。
+## 技能 | Skills
 
-## 研究中使用的工具與方法
-
-- **程式與資料處理：** Python、pandas、CVE-ID 去重與跨集合重疊檢查
-- **研究使用工具：** PyTorch、Hugging Face Transformers
-- **模型與評估：** Multi-label classification、Transformer fine-tuning、Focal Loss、MLP classifier head、threshold 分析、weighted metrics
-
-研究初期曾使用 LangChain 探索 LLM 與 RAG，後續以 supervised Transformer 模型完成主要研究。
-
-## 求職方向
-
-希望投入 AI 平台或運算基礎設施相關的初階軟體開發，參與 Python 工具、流程自動化、AI 服務整合及效能驗證等工程工作，並在團隊帶領下累積開發、問題分析與系統改善經驗，也願意考慮具有相近工程內容的相關職務。
-
-公開作品主要呈現資料處理、模型實驗與研究紀錄整理經驗。
-
-[GitHub 個人首頁](https://github.com/AJie913)
+- **程式與資料 / Programming and data:** Python, pandas, CVE-ID deduplication and cross-split overlap checks
+- **機器學習與 NLP / Machine learning and NLP:** PyTorch, Hugging Face Transformers, multi-label classification, Transformer fine-tuning, model evaluation
+- **研究原型 / Research prototyping:** LLM / RAG
